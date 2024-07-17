@@ -1,0 +1,138 @@
+header{
+    width:100%;
+    background-color: grey;
+    padding:10px;
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+.orders{
+    padding:20px;
+}
+.current{
+    padding:20px;
+}
+.sidebar{
+    width:70%;
+    float:left;
+}
+.container_btns{
+    margin-top:30px;
+    padding:30px;
+    clear:left;
+    margin-left:10px;
+    width:20%;
+    border-bottom: 5px solid blue;
+}
+.secondrow_container_btns{
+    margin-top:30px;
+    padding:30px;
+    clear:left;
+    margin-left:10px;
+    width:20%;
+    border-bottom: 5px solid blue;
+}
+.thirdrow_container_btns{
+    margin-top:30px;
+    padding:30px;
+    clear:left;
+    margin-left:10px;
+    width:20%;
+    border-bottom: 5px solid blue;
+}
+.fourthrow_container_btns{
+    margin-top:30px;
+    padding:30px;
+    clear:left;
+    margin-left:10px;
+    width:20%;
+    border-bottom: 5px solid blue;
+}
+.fifthrow_container_btns{
+    margin-top:30px;
+    padding:30px;
+    clear:left;
+    margin-left:10px;
+    width:20%;
+    border-bottom: 5px solid blue;
+}
+.right_bar{
+  width:30%;
+  background-color: gainsboro;
+  float:left;
+  margin-top: 30px;
+}
+.clear-btn{
+    float:right;
+    position:relative;
+    bottom:50px;
+    margin-right:10px;
+    color:blue;
+}
+.input-field{
+    width:90%;
+    padding:10px;
+    position:relative;
+    bottom:60px;
+}
+table{
+    width:100%;
+     position:relative;
+     bottom:15px;
+}
+table, tr,th,td   {
+    border:2px solid gray;
+}
+td{
+    padding:10px;
+}
+.order-table {
+    width:100%;
+    background-color: darkcyan;
+    text-align: center;
+}
+.table-head{
+    width:30%;
+}
+#order-ticket{
+    padding:10px;
+    float:left;
+    width:50%;
+    background-color: skyblue;
+}
+#charge{
+    padding:10px;
+    width:50%;
+    float:right;
+    background-color: green;
+}
+user_input{
+    text-align:center;
+}
+.summery{
+    width:50%;
+    background-color: blueviolet;
+    text-align: center;
+    position:relative;
+    left:300px;
+    display: none;
+}
+.order-items{
+    text-align: center;
+}
+.expand{
+    width:29%;
+}
+.span-number{
+    background-color:cornflowerblue;
+    color:rgb(165, 42, 69);
+}
+.cancel_order{
+    margin-left:600px;
+    padding:10px;
+    width:100px;
+    color:white;
+    background-color: red;
+    border-radius:7px
+}

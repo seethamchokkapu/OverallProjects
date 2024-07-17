@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+  var item=[];
+  var sum=0;
+  var discount;
+     for(var i=0;i<10;i++){
+     var x=prompt("Enter item cost:");
+       if(x=="end"){
+       break;
+       }
+       else
+       {
+       item.push(parseInt(x));
+       sum=sum+parseInt(x);
+       }
+       }
+      alert("costs of the items="+item);
+      alert("total cost="+sum);
+       if(sum>2000 && item.length>=5){
+       discount=(sum*80)/100;
+       alert(`Total amount${sum}\nyou got 20% discount \n your payble amount is${discount} \n thank you visit again.Happy Diwali`);
+      
+       }
+       else if(sum>2000 && item.length<5){
+       discount=(sum*90)/100;
+       alert(`Total amount${sum}\nyou got 10% discount \n your payble amount is${discount} \n thank you visit again.Happy Diwali`);
+       
+       }
+       else
+       {
+       alert(`you didn't get any discount \n your payble amount is${sum} \n thank you visit again.Happy Diwali`);
+      
+       }
+       
+       
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,84 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var transactions=[];
+ var accno=["939233","63050","957325","918297","996655","219090"];
+ var pwd=["1234","5678","9012","3456","9966","0852"];
+ var bln=[630,1769,350,4500,2000,2500];
+ var i=0;
+ function validation(){
+       var acno=prompt("enter your account number");
+       var pswd=prompt("enter your password");
+
+                
+       while(i<accno.length){
+          if(accno[i]==acno)
+          {
+            if(pwd[i]==pswd){
+             conditions();
+            }
+            else{
+            alert("invalid password");
+             validation();
+            }
+
+          }
+          
+            else{
+            if(i==accno.length-1){
+            alert("wrong acc No");
+            validation();
+            }
+            else{
+            i++;
+            }
+            }
+                 }
+
+
+      }
+
+
+  function conditions(){
+      var option=prompt(`1 balance checking \n 2 depodit \n 3 withdraw \n 4 transactions \n 5 exit`);
+       switch(option){
+         case "1":alert(`your account balance is${bln[i]}`);break;
+         case "2": deposit();break;
+         case "3": withdraw();break;
+         case "4": transactionshistory();break;
+         case "5": logout();
+         validation();       break;
+         default:alert("invalid option");
+       }
+
+      }
+ function  transactionshistory(){
+   alert(transactions);
+ }
+ function deposit(){
+         var balance=prompt("enter balance");
+         bln[i]+=parseInt(balance);
+          alert(`your account balance is${bln[i]}`);
+        transactions.push(`deposit-${balance}  total balance=${bln[i]}\n`);
+ }
+  function withdraw(){
+       var balance=prompt("enter balance");
+       if(bln[i]>balance){
+        bln[i]-=parseInt(balance);
+          alert(`your account balance is${bln[i]}`);
+           transactions.push(`withdraw-${balance}  remaining balance=${bln[i]}\n`);
+          }
+          else{
+          alert("insufficient balance");
+          conditions();
+          }
+   }
+   function logout(){
+          alert("your successfully log out.visit again");
+          }
+   validation();
+</script>
+</body>
+</html> 

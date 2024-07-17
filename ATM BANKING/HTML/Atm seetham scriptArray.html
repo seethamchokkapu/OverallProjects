@@ -1,0 +1,77 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+ var accno=["939233","63050","957325","918297"];
+ var pwd=["1234","5678","9012","3456"];
+ var bln=[630,1769,350,4500];
+ function validation(){
+       var acno=prompt("enter your account number");
+       var pswd=prompt("enter your password");
+
+                var i=0;
+       while(i<accno.length){
+          if(accno[i]==acno)
+          {
+            if(pwd[i]==pswd){
+             conditions(i);
+            }
+            else{
+            alert("invalid password");
+             validation();
+            }
+
+          }
+          
+            else{
+                 if(i==accno.length-1){
+            alert("wrong acc No");
+            validation();
+            }
+            else{
+            i++;
+            }
+            
+                 }
+              }
+
+      }
+
+
+  function conditions(i){
+      var option=prompt(`1 balance checking \n 2 deposit \n 3 withdraw \n 4 exit`);
+       switch(option){
+         case "1":alert(`your account balance is${bln[i]}`);break;
+         case "2": deposit(i);break;
+         case "3": withdraw(i);break;
+         case "4": logout();
+         validation();
+         default:alert("invalid option");
+       }
+
+      }
+ function deposit(i){
+         var balance=prompt("enter balance");
+         bln[i]+=parseInt(balance);
+          alert(`your account balance is${bln[i]}`);
+
+ }
+  function withdraw(i){
+       var balance=prompt("enter balance");
+       if(bln[i]>balance){
+        bln[i]-=parseInt(balance);
+          alert(`your account balance is${bln[i]}`);
+          }
+          else{
+          alert("insufficient balance");
+          conditions(i);
+          }
+   }
+   function logout(){
+          alert("your successfully log out.visit again");
+          }
+   validation();
+</script>
+</body>
+</html> 

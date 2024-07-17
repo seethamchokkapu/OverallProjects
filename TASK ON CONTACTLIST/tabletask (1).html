@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+    fieldset{
+        background-color:cornflowerblue;
+    }
+    table{
+         background-color: cadetblue;
+    }
+    .showtable{
+          background-color: darkgoldenrod;
+    }
+    </style>
+</head>
+<body>
+<fieldset>
+<center class="center">
+FIRSTNAME <input type="text" class="firstname" placeholder="enter your first-name" /></br></br>
+LASTNAME <input type="text" class="lastname" placeholder="enter your last-name" /></br></br>
+CONTACT NUM  <input type="number" class="contacts" placeholder="enter your num" /></br></br>
+DOB  <input type="date"  class="dob" placeholder="enter your dob" /></br></br></br>
+<button class="btn-add">ADD</button>
+<button class="replace-btn">REPLACE</button>
+</center>
+</br>
+</fieldset>
+<center>
+<table>
+<tr>
+<th>FIRSTNAME </th>
+<th>LASTNAME </th>
+<th>CONTACTNUM </th>
+<th>DOB </th>
+
+<th><button id="deletebtn" onclick="clearAll()">DELETEALL</button></th>
+</tr>
+<tbody class="showtable">
+</tbody>
+</table>
+</center>
+<script src="tabletask.js"></script>
+</body>
+</html>

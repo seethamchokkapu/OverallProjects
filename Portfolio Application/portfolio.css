@@ -1,0 +1,39 @@
+body{
+    background-color: #ffc0cb;
+    font-family: sans-serif;
+    }
+.container{
+    width: 100%; 
+          }
+
+.header{
+    height:50px;
+    background-color: aquamarine;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin-left:16%;
+    position: relative;
+    top: 10px;
+   
+  }
+
+.services{
+    display: none;
+}
+.about-us{
+    display: none;
+}
+.contact-us{
+    display: none; 
+}
+.div1{
+    background-color: rgb(11, 10, 10);
+}
+.hedingclor{
+    background-color: aliceblue;
+}
+.color{
+    color:rgb(160, 64, 29)
+}

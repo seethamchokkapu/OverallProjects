@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/restaurent_billing.css">
+</head>
+<body>
+    <header>
+        <button class="orders" value="Orders">Orders<span class="span-number">(0)</span></button>
+        <button class="current" value="current">Current</button>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+     <!--  <button class="container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="container_btns">Egg Clusters<br>1X160.00</button>
+
+       <button class="secondrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="secondrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="secondrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="secondrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="secondrow_container_btns">Egg Clusters<br>1X160.00</button>
+        
+
+       <button class="thirdrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="thirdrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="thirdrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="thirdrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="thirdrow_container_btns">Egg Clusters<br>1X160.00</button>
+      
+       <button class="fourthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fourthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fourthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fourthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fourthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       
+       <button class="fifthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fifthrow_container_btns">Egg Clusters<br>1X160.00</button>
+       <button class="fifthrow_container_btns">Egg Clusters<br>1X160.00</button>  -->
+        </div>
+
+     <div class="right_bar">
+           <p>Table5|Max</p>
+           <p class="clear-btn">Clear</p>
+           <form>
+        <input type="text" placeholder="9876543210" class="input-field" required>
+          </form>
+     <table>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tbody class="entering-data">
+       <!--  <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+         <tr>
+            <td>egg</td>
+            <td><input type="number" class="user_input"></td>
+            <td>200.00</td>
+         </tr>
+                    -->
+        </tbody>
+        <tr>                      
+         <td>Discount</td>
+         <td>10%</td>
+         <td id="discount"></td>
+      </tr>
+      <tr>
+         <td>Taxes</td>
+         <td>4%</td>
+         <td id="tax"></td>
+      </tr>   
+     </table>
+     <footer>
+        <button id="order-ticket">OrderTicket</button>
+        <button id="charge">charge0</button>
+      </footer>
+
+     </div>
+
+    </div>
+    <div>
+        <table class="order-table">
+            <tr>
+              <th class="table-head">CUSTOMER NAME</th>
+              <th class="table-head">DISCOUNT</th>
+              <th class="table-head">Tax</th>
+              <th class="table-head">BILL amount</th>
+              <th class="table-head">OrderITEMS</th>
+            </tr>
+         <tbody id="order-items">
+               <!-- <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr> -->
+         </tbody>
+      </table>
+
+    
+        
+    </div>
+    <div class="summery">
+      <p></p>
+       
+    </div>
+    <div class="cancel">
+    <button class="cancel_order">Cancel</button>
+   </div> 
+      
+    <script  src="../JS/restaurent_billing.js"></script>
+</body>
+</html>

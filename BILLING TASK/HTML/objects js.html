@@ -1,0 +1,64 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+  var item=[];
+  
+               
+  var products=[{productname:"iphone",cost:50000},
+                {productname:"watch",cost:10000},
+                {productname:"TV",cost:55000},
+                {productname:"laptop",cost:100000},
+                {productname:"wallet",cost:1000},
+                {productname:"grainder",cost:5000},
+                {productname:"gas stove",cost:4000},
+                {productname:"washing machine",cost:20000},
+                {productname:"iron box",cost: 2000},
+                {productname:"fridge",cost:33000}
+                ]
+                alert(JSON.stringify(products));
+          for( var i=0;i<products.length;i++) {
+            
+    
+   var option=prompt("CHOOSE YOUR OPTION HERE \n 1.iphone \n 2.watch \n 3.tv \n 4.laptop \n 5.wallet \n 6.grainder \n 7.gas stove \n 8.washing machine \n 9.iron box\n 10.fridge ");
+   
+   
+     if(option=="end"){
+           break;
+           }
+    
+      else{
+        item.push(products[parseInt(option)-1]);
+         
+          }
+       
+           }
+     console.log(item);
+   
+      var sum=0;
+      for(var j=0;j<item.length;j++){
+      sum+=item[j].cost;
+      console.log(sum);
+      }      
+      if(sum>2000 && item.length>=5){
+       discount=(sum*80)/100;
+       alert(`Total amount ${sum}\nyou got 20% discount \n your payble amount is ${discount} \n thank you visit again.Happy Diwali`);
+      
+       }
+       else if(sum>2000 && item.length<5){
+       discount=(sum*90)/100;
+       alert(`Total amount ${sum}\nyou got 10% discount \n your payble amount is ${discount} \n thank you visit again.Happy Diwali`);
+       
+       }
+       else
+       {
+       alert(`Total amount ${sum}\nyou did not get any discount \n your payble amount is ${sum} \n thank you visit again.Happy Diwali`);
+      
+       }
+     
+      
+    
+</script>
+</body>
+</html>

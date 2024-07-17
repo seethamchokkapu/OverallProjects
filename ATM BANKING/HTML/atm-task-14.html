@@ -1,0 +1,104 @@
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/atm-task-14.css">
+
+</head>
+<body class="bodybgcolor">
+
+     <div class="clear">
+           <button type="button" class="down" id="modal" >LOGIN</button><br><br>
+           <button type="button" class="down1" >REGISTER</button>
+     </div>
+     
+     
+     
+     
+     <div class="dispay">
+        <div >
+           <div class="div1">
+                <h2 style=text-align:center >LOGIN NOW</h2>  
+                <input type="text" placeholder="username" class="round" id="username-validation"><br><br>
+                <input type="password" class="round1" placeholder="....." id="userpassword-validation">
+                <p class="left">register now </p>
+                <p class="right">forgot pasword ?</p>
+                <button type="button" onclick="validation()" class="round2" id="validation" >login</button>
+                <p style=text-align:center>happy nagulachavithi</P>
+              <button class="btn-cancle" id="Btn">CANCLE</button>
+    </div>
+       </div> 
+   
+          </div>
+          
+          
+         
+   
+  <div class="options-page" >
+      <div>
+       <h1 >ATM</h1>
+       <h1 id="loggedout"class="return1" onclick="logout()">LOG OUT</h1>
+      </div>
+   
+         <div class="add" style=height:20%;width:25%>
+
+            <h4>Welcome</h4>
+            <h3 id="placed">Steph Curry</h3><br>
+            <h3 class="color">Account #1</h3>
+            <p class="color" id="withdraw">2380</p><br>
+           
+         
+         </div>
+         
+          <input class="add1" type="button" value="Get Cash" id="withdrawform">
+          <input class="add2" type="button" value="Payments" id="btn-t" >
+          <input class="add3" type="button" value="Deposit" id="depositMoney">
+         
+         
+       
+          
+          
+          <div class="add7" style=background-color:red;height:45px;width:56%;text-align:center;color:white;>
+              <h2 class="add8">$70</h2>
+               <h4 class="add9">Quick Cash ></h4>
+              
+          </div>
+         
+  </div>    
+  
+  
+  <div class="page-none">
+       
+       ENTER MONEY<br><input type="number" style="width:30%;padding:10px" id="enteredMoney" ><br><br>
+       <button style="background-color:red;width:30%;padding:10px" class="btn-withdraw">WITHDRAW</button>
+       
+       <button id="canclebtn" onclick="cancle()">Cancle</button>
+  </div>
+      
+     <div class="deposit-page" >
+       
+       ENTER MONEY<br><input type="number" style="width:30%;padding:10px" id="enterMoney" ><br><br>
+       <button style="background-color:red;width:30%;padding:10px" class="btn-deposit" id="Deposit-btn">DEPOSIT</button>
+         
+       <button id="canclebtn" onclick="cancle1()">Cancle</button>
+     </div>
+   
+   <div class="last-page" >
+       <table style="width:90%" id="tableId">
+          <tr>
+            <th>Type of Transaction</th>
+            <th>Amount</th>
+            <th>Total Balance</th>
+          </tr>
+       </table>
+   
+      <button class="Close-btn" id="bclose" onclick="close()">Close</button>
+      <button  id="canclebtn" onclick="cancle2()">Cancle</button>
+      <button id="depo-history" >Deposit history</button>
+      <button id="with-history" >withdraw history</button>
+      
+   </div>
+  
+<script src="../JS/atm-task-14.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,263 @@
+
+.bodybgcolor{
+background-color:blue;
+}
+.down{
+ margin-left:40%;
+ margin-top:30%;
+ width:280px;
+ padding:3%;
+ background-color:green;
+ font-size:18px;
+ color:white;
+}
+.down1{
+margin-left:40%;
+width:280px;
+ padding:3%;
+ background-color:green;
+ font-size:18px;
+ color:white;
+}
+
+
+
+//validation page css
+  
+body{
+background:linear-gradient(to right, #3116b8 0%, #4b3d91 100%);
+}
+.options-page{
+  display:none;
+  }
+.div1{
+ width:50%;
+ height:80%;
+background-color:white;
+margin:250px;
+padding:10px;
+border-radius:2%;
+}
+.btn-cancle{
+background-color:red;
+margin-left:48%;
+margin-top:-17%;
+}
+.round{
+border: 2px solid #E9E9E9 ;
+  border-radius: 12px;
+  padding: 20px;
+  margin:40px;
+  width:90%;
+  }
+  .round1{
+border: 2px solid #E9E9E9 ;
+  border-radius: 12px;
+  padding: 20px;
+  margin:40px;
+  width:90%;
+  }
+  .left{
+  margin-left:45px;
+  
+    }
+   .right{
+   float:right;
+   margin-top:-34px;
+   margin-right:40px;
+  
+    }
+.round2{
+  background-color:#232FA4 ;
+  width:90%; 
+  color:white;
+  font-size:15px;
+  border: 2px solid grey ;
+  border-radius: 12px;
+  padding: 20px;
+  margin:40px;
+  hover:red;
+  
+  }
+  
+  .display{
+  display:none;
+  }
+  .div1{
+   display:none;
+  }
+  
+  
+  //options page css
+
+  body{
+  background-color:#1616DA;
+  width:1200px;
+  margin:auto;
+  }
+  .options-page{
+  display:none;
+  }
+  .add{
+  background-color:#1616DA;
+  float:left;
+  padding:60px;
+  margin-top:2%;
+  float:left;
+ 
+  }
+  .add1{
+  margin-top:10%;
+  width:27%;
+  padding:3%;
+  background-color:#14C4D1;
+  color:white;
+  font-size:20px;
+  border:none;
+  }
+  .add2{
+  margin-top:2%;
+  width:27%;
+  padding:3%;
+  background-color:#14C4D1;
+  color:white;
+  font-size:20px;
+  border:none;
+  }
+  .add3{
+  margin-top:2%;
+  width:27%;
+  padding:3%;
+  background-color:#14C4D1;
+  margin-left:1.6%;
+  color:white;
+  font-size:20px;
+  border:none;
+  }
+  
+  
+  .color{
+  margin-left:5%;
+  color:white
+  }
+  .return1{
+  float:right;
+  margin-top:-55px;
+  color:white;
+  margin-right:9%;
+  
+  }
+
+  h4{
+  color:#14C4D1;
+  }
+  h3{
+  color:white
+  }
+  h3.color{Deposit
+  color:#14C4D1
+  }
+  h1{
+  color:white;
+  margin-left:0.9%;
+  
+  }
+   h4.color{
+  color:#14C4D1;
+  }
+  h3.color{
+  color:#14C4D1;
+  margin-top:5%;
+ 
+  }
+   h1.heading{
+  color:white;
+  margin-left:0.9%;
+  }
+  .return{
+  margin:120px;
+  }
+ 
+  .add7{
+  margin:150px 50px 0px 2px;
+ float:right;
+ }
+ .add8{
+  float:left;
+  margin-left:80px;
+  margin-top:1%;
+  }
+   .add9{
+  float:right;
+  margin-right:60px;
+  margin-top:1.6%;
+  }
+ .input{
+ background-color:#14C4D1;
+ }
+ 
+ .add1:hover{
+ background-color:lightgrey;
+ color:green;
+ }
+  
+ .add2:hover{
+ background-color:lightgrey;
+ color:green;
+ }
+ 
+ .add3:hover{
+ background-color:lightgrey;
+ color:green;
+ }
+ 
+ .add4:hover{
+ background-color:lightgrey;
+ color:green;
+ }
+ 
+ .add5:hover{
+ background-color:lightgrey;
+ color:green;
+ }
+ 
+ .add6:hover{
+ background-color:lightgrey;
+ color:green;
+ }   
+ 
+ 
+ 
+ 
+ .page-none{
+ display:none;
+ margin-top:20%;
+ margin-left:30%;
+ }
+ .deposit-page{
+ display:none;
+ margin-top:20%;
+ margin-left:30%;
+ }
+ 
+ 
+ .last-page{
+  display:none;
+  background-color:white;
+ 
+ }
+ td{
+   padding-left:100px;
+ }
+ .Close-btn{
+  text-align:center;
+  margin-left:50%;
+ }
+ .popup{
+   display:none;
+}
+#canclebtn{
+background-color:red;
+}
+ 
+                          

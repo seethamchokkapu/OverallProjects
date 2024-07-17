@@ -1,0 +1,185 @@
+{
+  "items": [
+    {
+      "name": "Idle",
+      "price": 20,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Chapathi",
+      "price": 30,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Dosa",
+      "price": 30,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "name": "Wada",
+      "price": 25,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "name": "Puri",
+      "price": 30,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "name": "VegFried Rice",
+      "price": 80,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "name": "Nonveg Rice",
+      "price": 110,
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "name": "Veg Biryani",
+      "price": 90,
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "name": "NonVeg Biryani",
+      "price": 150,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "name": "Meals",
+      "price": 70,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "name": "samosa",
+      "price": 40,
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "name": "upma",
+      "price": 70,
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "name": "veg soup",
+      "price": 70,
+      "quantity": 1,
+      "id": 13
+    },
+    {
+      "name": "fruit juice",
+      "price": 80,
+      "quantity": 1,
+      "id": 14
+    },
+    {
+      "name": "tea",
+      "price": 20,
+      "quantity": 1,
+      "id": 15
+    },
+    {
+      "name": "lemon tea",
+      "price": 40,
+      "quantity": 1,
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "customername": "ravi",
+      "discountamount": 37,
+      "totalAmount": 333,
+      "taxamount": 14.8,
+      "billamount": 347.8,
+      "status": "active",
+      "orderitems": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1
+        },
+        {
+          "name": "Veg Biryani",
+          "price": 90,
+          "quantity": "3"
+        },
+        {
+          "name": "upma",
+          "price": 70,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customername": "",
+      "discountamount": 11,
+      "totalAmount": 99,
+      "taxamount": 4.4,
+      "billamount": 103.4,
+      "status": "active",
+      "orderitems": [
+        {
+          "name": "Idle",
+          "price": 20,
+          "quantity": 1
+        },
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": "2"
+        },
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customername": "",
+      "discountamount": 54,
+      "totalAmount": 486,
+      "taxamount": 21.6,
+      "billamount": 507.6,
+      "status": "active",
+      "orderitems": [
+        {
+          "name": "Idle",
+          "price": 20,
+          "quantity": 1
+        },
+        {
+          "name": "VegFried Rice",
+          "price": 80,
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg Rice",
+          "price": 110,
+          "quantity": "3"
+        },
+        {
+          "name": "Nonveg Rice",
+          "price": 110,
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
